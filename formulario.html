@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<style media="all" type="text/css">
+		@import "css/formulario.css"; 
+		</style>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$("#header_links").hover(function () {
+				$(this).toggleClass("menu-active");
+				});
+		//	alert("opa");
+		});
+		</script>
+		
+	</head>
+	<body>
+		<div id="container">
+		
+			<div id="header">
+		
+				<div id="header_left">
+					<div class="Horizontal">
+						<div id="header_links" class="menu-active"><a href="#">home</a></div>
+						<div id="header_links"> <a href="#">contribua</a></div>
+						<div id="header_links"> <a href="#">como baixar</a></div>
+						<div id="header_links"> <a href="#">documentação</a></div>
+						<div id="header_links"> <a href="#">dúvidas</a></div>
+						<div id="header_links"> <a href="#">contato</a></div>
+					</div>
+				</div>
+					
+				<div id="header_right">
+					<div id="login"><a href="#">login</a></div>
+					
+					<form action="#" method="post" name="login" style="text-align: right; padding-top: 2px;"> 
+					<fieldset>
+					<label for="usuário">usuário</label><br/>
+					<input type="text" id="usuário" name="usuário" />
+					</fieldset>
+					<fieldset>
+					<label for="senha">senha</label><br/>
+					<input type="password" id="senha" name="senha" />
+					</fieldset>
+					
+				</div>
+				
+			</div>
+			
+			
+			
+			<div id="content" style="width: 482px; height: 450px;">
+			<p>conteúdo</p>
+			</div>
+			
+			
+			
+			<div id="footer" style="width: 482px; font-size: 8pt; text-align: center">
+			<p>Lorem ipsum dolor sit amet</p>
+			</div>
+		
+		</div>
+	</body>
+</html>

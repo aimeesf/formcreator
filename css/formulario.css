@@ -1,0 +1,78 @@
+body {
+	font-family: 'Trebuchet MS';
+	font-size: 8pt;
+	text-align: left;
+	width: 800px;
+	margin: 0;
+}
+
+
+#container {
+	text-align: left;
+	width: 642px;
+	position: relative;
+	margin: 87 0 0 160px;
+}
+
+
+#header {
+	height: 123px;
+	width: 642px;
+	background: url(../images/logo.png) left center no-repeat;
+}
+
+
+#header_right  {
+	width: 149px;
+	margin-left: 11px;
+	float: right;
+	position: relative;
+	background: url(../imagens/menu_login.png) top right no-repeat;
+}
+
+
+#login {
+	text-align: right;
+}
+
+
+.fieldset {
+	width: 149px;
+}
+
+
+.fieldset .label {
+	text-align: right;
+	width: 32px;
+	float: left;
+	padding:0.2em;
+	margin:0;
+	margin-top:0.3em;
+}
+
+
+
+#header_left {
+	width: 482px;
+	text-align: left;
+	float: left;
+}
+
+#menu_active {
+	background: url(../imagens/menu_ativo.png) top left no-repeat;
+}
+
+
+div.Horizontal div {
+	width: 80px;
+	float: left;
+	background: url(../imagens/menu_inativo.png) top left no-repeat;
+}
+
+
+
+a {text-decoration: none;}
+a:link {color: #808080;}
+a:visited {color: #808080;}
+a:active {color: #000000;}
+a:hover {color: #000000;}
